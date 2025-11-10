@@ -9,6 +9,6 @@ numpy==2.3.4
 python-dotenv==1.2.1
 openai==2.7.1
 tqdm==4.66.1
-pandas==2.1.0
+pandas==2.3.3
 langchain_community==0.4.1
 langchain==1.0.5
