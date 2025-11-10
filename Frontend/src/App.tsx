@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { SearchInput } from './components/SearchInput';
 import { ResultsTable } from './components/ResultsTable';
 import { assessments } from './data/assessments';
@@ -7,6 +7,7 @@ import { Card } from './components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
 import { FileText, Lightbulb, ArrowRight } from 'lucide-react';
 import { Toaster } from './components/ui/sonner';
+import react from '@vitejs/plugin-react-swc';
 
 export default function App() {
   const [results, setResults] = useState<ScoredAssessment[]>([]);
