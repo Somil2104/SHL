@@ -2,7 +2,7 @@
       "name": "Frontend",
       "version": "0.1.0",
       "private": true,
-      "homepage": "https://somil2104.github.io/SHL/",
+      "homepage": "https://somil2104.github.io/SHL/Frontend",
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
