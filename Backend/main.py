@@ -11,9 +11,9 @@ app = FastAPI(title="SHL Assessment Recommender")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # you can restrict to ["http://localhost:5173"] for safety
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  # <--- this is important (handles OPTIONS)
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
