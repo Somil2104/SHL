@@ -12,3 +12,4 @@ tqdm==4.66.1
 pandas==2.3.3
 langchain_community==0.4.1
 langchain==1.0.5
+lxml[html_clean]
