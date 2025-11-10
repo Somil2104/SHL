@@ -15,4 +15,3 @@ pypdf2
 langchain_community
 langchain_openai
 langchain
-langchain.schema
