@@ -26,7 +26,7 @@ export default function App() {
     await new Promise(resolve => setTimeout(resolve, 800));
     console.log("called")
     try {
-      const response = await fetch("https://backend-905635359571.europe-west1.run.app/recommend", {
+      const response = await fetch("https://shl-vlfz.onrender.com/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query }),
