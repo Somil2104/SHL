@@ -5,12 +5,10 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 readability-lxml==0.8.1
 faiss-cpu==1.12.0
-numpy==1.26.2
+numpy==2.3.4
 python-dotenv==1.2.1
 openai==2.7.1
 tqdm==4.66.1
 pandas==2.1.0
-pypdf2
-langchain_community
-langchain_openai
-langchain==0.2.4
+langchain_community==0.4.1
+langchain==1.0.5
