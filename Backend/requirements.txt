@@ -6,7 +6,7 @@ beautifulsoup4==4.12.2
 readability-lxml==0.8.1
 sentence-transformers==2.2.2
 faiss-cpu>=1.7.2
-numpy==1.26.5
+numpy
 python-dotenv==1.2.1
 openai==2.7.1
 tqdm==4.66.1
